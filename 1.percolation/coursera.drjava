@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20160913-225446">
+  <project autorefresh="false" main="C:\Users\berli\algs4\java\1.percolation" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file name="Percolation.java" package="" timestamp="22-Mar-2018 19:13:54">
+        <select from="0" to="0"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="InteractivePercolationVisualizer.java" package="" timestamp="22-Mar-2018 18:57:32">
+        <select from="0" to="0"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="PercolationStats.java" package="" timestamp="22-Mar-2018 01:36:50">
+        <select from="0" to="0"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="PercolationVisualizer.java" package="" timestamp="20-Mar-2018 02:55:30">
+        <select from="0" to="0"/>
+        <scroll column="0" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath>
+      <file absolute="false" name="../../../Users/berli/algs4/algs4.jar"/>
+      <file absolute="true" name="C:/Users/berli/algs4/algs4.jar"/>
+      <file absolute="false" name="../program/UF.java"/>
+    </classpath>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>

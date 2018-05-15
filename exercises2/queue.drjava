@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20160913-225446">
+  <project autorefresh="false" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="Deque.java" package="" timestamp="11-May-2018 11:01:43">
+        <select from="2692" to="2692"/>
+        <scroll column="1636" row="0"/>
+      </file>
+      <file name="Permutation.java" package="" timestamp="01-May-2018 18:04:26">
+        <select from="2692" to="2692"/>
+        <scroll column="1636" row="0"/>
+      </file>
+      <file name="RandomizedQueue.java" package="" timestamp="07-May-2018 02:58:50">
+        <select from="2692" to="2692"/>
+        <scroll column="1636" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath>
+      <file absolute="true" name="C:/Users/berli/algs4/algs4.jar"/>
+    </classpath>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>
