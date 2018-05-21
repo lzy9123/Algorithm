@@ -1,5 +1,5 @@
-*.class
-*.java~
-*.drjava
-/data/*
-/referenc/*
+**.class
+**.java~
+**.drjava
+/data/**
+/referenc/**
