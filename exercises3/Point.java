@@ -2,7 +2,7 @@
  *  Compilation:  javac Point.java
  *  Execution:    java Point
  *  Dependencies: none
- *  
+ *
  *  An immutable data type for points in the plane.
  *  For use on Coursera, Algorithms Part I programming assignment.
  *
@@ -59,6 +59,14 @@ public class Point implements Comparable<Point> {
      * @return the slope between this point and the specified point
      */
     public double slopeTo(Point that) {
+        if (that.x == this.x && that.y == this.y)
+            return -1.0/0.0;
+        else if (that.y == this.y)
+            return +0.0;
+        else if (that.x == this.x)
+            return 1.0/0.0;
+        else
+            return  (that.y- this.y)/(double)(that.x- this.x);
         /* YOUR CODE HERE */
     }
 
@@ -76,6 +84,12 @@ public class Point implements Comparable<Point> {
      */
     public int compareTo(Point that) {
         /* YOUR CODE HERE */
+        if (that.x==this.x && that.y== this.y)
+            return 0;
+        else if (this.y < that.y || (this.y==that.y && this.x<that.x))
+            return -1;
+        else
+            return 1;
     }
 
     /**
@@ -85,9 +99,21 @@ public class Point implements Comparable<Point> {
      * @return the Comparator that defines this ordering on points
      */
     public Comparator<Point> slopeOrder() {
+        return new SlopeOrder();
         /* YOUR CODE HERE */
     }
 
+    private class  SlopeOrder implements Comparator<Point>{
+        private Point center = Point.this;
+        public int compare(Point a , Point b){
+            if (center.slopeTo(a)==center.slopeTo(b))
+                return 0;
+            else if(center.slopeTo(a)<center.slopeTo(b))
+                return -1;
+            else
+                return 1;
+        }
+    }
 
     /**
      * Returns a string representation of this point.
@@ -105,6 +131,7 @@ public class Point implements Comparable<Point> {
      * Unit tests the Point data type.
      */
     public static void main(String[] args) {
-        /* YOUR CODE HERE */
+            /* YOUR CODE HERE */
+
     }
 }
