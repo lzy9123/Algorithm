@@ -108,8 +108,8 @@ public class FastCollinearPoints {
 
 
 
-    private boolean isCollinear (Point []_ends1, Point[] _ends2){
-        if (_ends1[0].compareTo(_ends2[0])==0 && _ends1[1].compareTo(_ends2[1])==1){
+    public boolean isCollinear (Point []_ends1, Point[] _ends2){
+        if (_ends1[0].compareTo(_ends2[0])==0 && _ends1[1].compareTo(_ends2[1])==0){
             return true;
         }
         else {
