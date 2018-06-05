@@ -11,7 +11,6 @@ private ArrayList<LineSegment> SegmentList = new ArrayList<LineSegment>();
     public BruteCollinearPoints(Point[] inpoints) {
         if( inpoints == null)
             throw new IllegalArgumentException("Argument is null");
-
         Points = new Point[inpoints.length];
         for (int i = 0;i<inpoints.length;i++){
             if (inpoints[i]==null)
