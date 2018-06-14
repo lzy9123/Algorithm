@@ -48,7 +48,6 @@ public class PuzzleChecker {
             Board initial = new Board(tiles);
             Solver solver = new Solver(initial);
             StdOut.println(filename + ": " + solver.moves());
-/*
             StdOut.print("\n solution1:\n");
             for (Board a:solver.solution()){
                 StdOut.println(a.toString());
@@ -59,7 +58,6 @@ public class PuzzleChecker {
              for (Board b:solver.solution()){
                 StdOut.println(b.toString());
             }
-            */
         }
     }
 }
